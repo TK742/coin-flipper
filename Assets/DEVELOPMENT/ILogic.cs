@@ -32,9 +32,9 @@ public class ILogic : MonoBehaviour
         music.Stop();
         Play(drumRoll);
         ui.SetActive(false);
-        rb.AddForce(Vector3.up * Random.Range(1000, 2500));
+        rb.AddForce(Vector3.up * Random.Range(100f, 750f));
         yield return new WaitForSeconds(Random.Range(0.10f, 0.30f));
-        rb.AddTorque(Vector3.forward * Random.Range(2500, 5000));
+        rb.AddTorque(Vector3.forward * Random.Range(250f, 300f));
         yield return new WaitUntil(() => !Moving && timer >= 0.5f);
         sfx.Stop();
         yield return new WaitUntil(() => !Moving && timer >= 1f);

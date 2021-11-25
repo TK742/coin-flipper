@@ -51,6 +51,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -472,7 +476,7 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 7e63fbee1b72144885964ae87a6a6fa7
+      Hash: d4f1767fda5155e065a5119bae9d9734
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ILogic
@@ -533,4 +537,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/DEVELOPMENT/Main.unity
-  playerPath: C:/Users/ttasc/Desktop/Coin Flipper!/Coin Flipper!.exe
+  playerPath: C:/Users/ttasc/Desktop/Coin Flipper! Nerfeado/Coin Flipper!.exe
